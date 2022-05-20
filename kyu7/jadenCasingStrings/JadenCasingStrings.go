@@ -13,3 +13,7 @@ func ToJadenCase(str string) string {
 
 	return strings.Join(words, " ")
 }
+
+func BestWay(str string) string {
+	return strings.Title(str)
+}
